@@ -1,23 +1,23 @@
 <?php
 // Check for empty fields
-if(empty($_POST['name'])  		||
-   empty($_POST['emailphone']) 		||
-   empty($_POST['message'])
+if(empty($_POST['name'])                ||
+   empty($_POST['email'])               ||
+   empty($_POST['message']))
    {
-	echo "No arguments Provided!";
-	return false;
+        echo "No arguments Provided!";
+        return false;
    }
-	
+
 $name = $_POST['name'];
-$emailphone = $_POST['emailphone'];
+$email = $_POST['email'];
 $message = $_POST['message'];
-	
+
 // Create the email and send the message
-$to = 'parham@tura.io';
+$to = "parham@tura.io";
 $email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\Contact: $emailphone\n\nMessage:\n$message";
-$headers = "From: noreply@yourdomain.com\n";
-// $headers .= "Reply-To: $emailphone";
+$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nContact: $email\n\nMessage:\n$message";
+$headers = "From: info@tura.io\n";
+$headers .= "Reply-To: info@tura.io";
 mail($to,$email_subject,$email_body,$headers);
-return true;			
+return true;
 ?>

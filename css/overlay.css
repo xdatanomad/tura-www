@@ -17,6 +17,14 @@
     color: #33adff;
 }
 
+.navbar-default .navbar-brand .icon {
+    width: 40px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -10px;
+}
+
 .navbar-default .navbar-toggle {
     background-color: #b3e0ff;
     border-color: #b3e0ff;
@@ -238,10 +246,14 @@ section#contact .form-group input, section#contact .form-group textarea {
 }
 
 section#contact .form-group input.form-control {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
     height: auto;
 }
 
 section#contact .form-group textarea.form-control {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
     height: 150px;
 }
 

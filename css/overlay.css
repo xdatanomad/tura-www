@@ -20,9 +20,11 @@
 .navbar-default .navbar-brand .icon {
     width: 40px;
     height: auto;
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
     margin-top: -10px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .navbar-default .navbar-toggle {

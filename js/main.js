@@ -9,7 +9,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - 30
         }, 800, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -24,3 +24,5 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('.form-control').keydown(function() { $(this).css("color", "#f8f8f8"); });

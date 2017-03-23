@@ -1,17 +1,98 @@
 
-/*
-.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-    padding-top: 20px;
+/* ========= FONTS SECTION =========== */
+
+.font-lato {
+    font-family: 'Lato';
 }
 
-.navbar-brand {
-    font-size: 24pt;
+.font-opensans {
+    font-family: 'Open Sans';
 }
 
-.navbar-nav {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18pt;
+.font-roboto {
+    font-family: 'Roboto';
 }
-*/
+
+.font-default {
+    font-family: sans-serif;
+}
+
+.font-sm {
+    font-weight: 300;
+}
+
+.font-md {
+    font-weight: 400;
+}
+
+.font-lg {
+    font-weight: 600;
+}
+
+.font-regular {
+    font-style: normal;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-size-xl {
+    font-size: x-large;
+}
+
+.font-size-lg {
+    font-size: large;
+}
+
+.font-size-md {
+    font-size: medium;
+}
+
+.font-size-sm {
+    font-size: small;
+}
+
+.color-1 {
+    color: #80B9D2;
+}
+
+.color-2 {
+    color: #49A382;
+}
+
+.color-3 {
+    color: #FCFFFD ;
+}
+
+.color-4 {
+    color: #2C363F;
+}
+
+.color-5 {
+    color: #E96987;
+}
+
+.color-6 {
+    color: #C04A35;
+}
+
+.bgcolor-1 {
+    background-color: #80B9D2;
+}
+
+.bgcolor-2 {
+    background-color: #49A382;
+}
+
+.bgcolor-3 {
+    background-color: #FCFFFD ;
+}
+
+.bgcolor-4 {
+    background-color: #2C363F;
+}
+
+.bgcolor-5 {
+    background-color: #E96987;
+}

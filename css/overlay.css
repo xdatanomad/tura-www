@@ -14,7 +14,9 @@
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
-    color: #33adff;
+    /*color: #33adff;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
 }
 
 .navbar-default .navbar-brand .icon {
@@ -28,8 +30,11 @@
 }
 
 .navbar-default .navbar-toggle {
-    background-color: #b3e0ff;
-    border-color: #b3e0ff;
+    /*background-color: #b3e0ff;
+    border-color: #b3e0ff;*/
+    /* darker green in official logo */
+    background-color: #7AB7AB;
+    border-color: #7AB7AB;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -38,8 +43,11 @@
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #b3e0ff;
-    border-color: #b3e0ff;
+    /*background-color: #b3e0ff;
+    border-color: #b3e0ff;*/
+    /* darker green in official logo */
+    background-color: #7AB7AB;
+    border-color: #7AB7AB;
 }
 
 
@@ -52,12 +60,14 @@
 }
 
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-    color: #33adff;
+    /*color: #33adff;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
     outline: 0;
 }
 
 header {
-    //background-image: url(../img/tmp/bg1.jpg);
+    /*background-image: url(../img/tmp/bg1.jpg);*/
     /*background-repeat: none;*/
     /*background-attachment: scroll;*/
     /*background-position: center center;*/
@@ -67,14 +77,16 @@ header {
     -o-background-size: cover;
     text-align: left;
     background-color: #262626;
-    // background-color: #00bfff;
+    /*background-color: #00bfff;*/
     color: #222222;
 }
 
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    /*padding-top: 100px;
+    padding-bottom: 50px;*/
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 header .intro-text .intro-lead-in {
@@ -99,23 +111,27 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 150px
+        /*padding-top: 300px;
+        padding-bottom: 150px*/
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
-        font-family: 'Raleway', 'Karma', sans-serif;
-        font-weight: 400;
+        /*font-family: 'Raleway', 'Karma', sans-serif;*/
+        font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';
+        /*font-weight: 400;
         font-size: 36pt;
-        font-style: normal;
+        font-style: normal;*/
         line-height: 40px;
         margin-bottom: 50px;
-        color: #f0f0f0;
-        color: #80B9D2;
+        /*color: #f0f0f0;
+        color: #80B9D2;*/
     }
 
     header .intro-text .intro-heading {
-        font-family: 'Raleway', 'Karma', sans-serif;
+        /*font-family: 'Raleway', 'Karma', sans-serif;*/
+        font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40pt;

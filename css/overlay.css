@@ -207,8 +207,10 @@ section h4.service-heading {
 
 .divider-line {
     position: absolute;
-    border-top: 1px solid #80B9D2;
-    padding: 10px 10px;
+    /*border-top: 1px solid #80B9D2;*/
+    /* darker green in official logo */
+    border-top: 1px solid #7AB7AB;
+    /*padding: 10px 10px;*/
     width: 100%;
 }
 

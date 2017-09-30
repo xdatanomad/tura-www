@@ -310,12 +310,15 @@ section#arch1 {
     /*color: #f8f8f8;*/
 /*}*/
 
+/* Subheadings under the Specialties section */
 .arch-heading {
-    font-family: 'Bungee', 'Raleway', 'Lato';
+    /*font-family: 'Bungee', 'Raleway', 'Lato';*/
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
     font-weight: 500;
     font-size: 18pt;
     /*color: #f8f8f8;*/
-    color: #C04A35;
+    /*color: #C04A35;*/
+    color: #AACFCA /* light green in official logo */
 }
 
 .arch-body {

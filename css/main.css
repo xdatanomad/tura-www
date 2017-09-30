@@ -61,7 +61,10 @@
 }
 
 .color-2 {
-    color: #49A382;
+    /* Not used as far as I can tell in actual webpage */
+    /*color: #49A382;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
 }
 
 .color-3 {

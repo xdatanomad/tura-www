@@ -145,10 +145,13 @@ section {
 }
 
 section h2.section-heading {
-    font-family: 'Bungee Shade' , 'Lato',sans-serif;
+    /*font-family: 'Bungee Shade' , 'Lato',sans-serif;*/
+    font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';
     font-weight: 400;
     font-size: 24pt;
     color: #80B9D2;
+    /* darker green from official logo */
+    color: #7AB7AB;
     margin-top: 0;
     margin-bottom: 15px;
 }

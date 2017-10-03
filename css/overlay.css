@@ -2,11 +2,10 @@
 .navbar-default {
     background-color: #ffffff;
     border-color: transparent;
-    //border-bottom: 1px solid #222222;
+    border-bottom: 1px solid #222222;
 }
 
-.navbar-default .navbar-brand {
-    // color: #fed136;
+.navbar-default .navbar-brand {    
     font-family: 'Roboto', 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 300;

@@ -5,7 +5,7 @@
     border-bottom: 1px solid #222222;
 }
 
-.navbar-default .navbar-brand {    
+.navbar-default .navbar-brand {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
@@ -155,7 +155,8 @@ header .intro-text .intro-heading {
 
 section {
     background-color: #262626;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #000000;
     padding: 45px 10px;
 }
 
@@ -345,7 +346,8 @@ section#arch1 {
     font-family: 'Lato';
     font-weight: 300;
     font-size: 12.5pt;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #000000;
 }
 
 .divider-md-inv {

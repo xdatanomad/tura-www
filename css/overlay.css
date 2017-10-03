@@ -260,7 +260,8 @@ section#contact .info  {
     font-family: "Open Sans", sans-serif;
     font-size: 14pt;
     font-style: normal;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #000000; 
 }
 
 section#contact .form-group {

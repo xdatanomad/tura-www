@@ -95,7 +95,8 @@ header .intro-text .intro-lead-in {
     font-style: normal;
     line-height: 22px;
     margin-bottom: 25px;
-    color: #f0f0f0;
+    /*color: #f0f0f0;*/
+    color: #000000;
 }
 
 header .intro-text .intro-heading {
@@ -105,7 +106,8 @@ header .intro-text .intro-heading {
     font-size: 30pt;
     line-height: 50px;
     margin-bottom: 25px;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #000000; 
 }
 
 @media (min-width: 768px) {
@@ -261,7 +263,7 @@ section#contact .info  {
     font-size: 14pt;
     font-style: normal;
     /*color: #f8f8f8;*/
-    color: #000000; 
+    color: #000000;
 }
 
 section#contact .form-group {

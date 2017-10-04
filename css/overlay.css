@@ -75,9 +75,9 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: left;
-    background-color: #262626;
+    /*background-color: #262626;*/
     /*background-color: #00bfff;*/
-    color: #222222;
+    /*color: #222222;*/
 }
 
 
@@ -107,7 +107,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
     margin-bottom: 25px;
     /*color: #f8f8f8;*/
-    color: #000000; 
+    color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -156,9 +156,8 @@ header .intro-text .intro-heading {
 }
 
 section {
-    background-color: #262626;
+    /*background-color: #262626;*/
     /*color: #f8f8f8;*/
-    color: #000000;
     padding: 45px 10px;
 }
 
@@ -393,7 +392,8 @@ section#arch1 {
     border: 0px;
     border-style: none;
     border-bottom: 2px solid #f8f8f8;
-    background-color: #262626;
+    /* remove dark gray background for name input in contact form */
+    /*background-color: #262626;*/
     color: #f8f8f8;
 }
 
@@ -407,7 +407,8 @@ section#contact .form-control {
     border: 0px;
     border-style: none;
     border-bottom: 2px solid #f8f8f8;
-    background-color: #262626;
+    /* remove dark gray background for email in contact form */
+    /*background-color: #262626;*/
     color: #f8f8f8;
 }
 

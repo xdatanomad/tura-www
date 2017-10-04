@@ -204,7 +204,7 @@ section h4.service-heading {
 
 @media (min-width: 768px) {
     section {
-        background-color: #262626;
+        /*background-color: #262626;*/
         color: #f8f8f8;
         padding: 45px 0;
     }

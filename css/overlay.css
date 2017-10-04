@@ -452,11 +452,18 @@ section#contact .form-control {
     }
 }
 
+.mugshot-wall {
+  text-align: center;
+}
+
 .mugshot {
-  display: inline;
+  display: inline-block;
   height: 250px;
   width: 200px;
   object-fit: cover;
   object-position: top 75%;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  /*text-align: center;*/
 }

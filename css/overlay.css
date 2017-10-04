@@ -437,6 +437,7 @@ section#contact .form-control {
 .vertical-middle {
     vertical-align: middle;
 }
+
 .tech-stack {
     display: block;
     position: relative;
@@ -449,4 +450,13 @@ section#contact .form-control {
     .tech-stack {
         width: 65%;
     }
+}
+
+.mugshot {
+  display: inline;
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  object-position: top 75%;
+  overflow: hidden;
 }

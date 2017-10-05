@@ -119,8 +119,8 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        /*font-family: 'Raleway', 'Karma', sans-serif;*/
-        font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';
+        font-family: 'Raleway', 'Karma', sans-serif;
+        /*font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';*/
         /*font-weight: 400;
         font-size: 36pt;
         font-style: normal;*/
@@ -131,8 +131,8 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        /*font-family: 'Raleway', 'Karma', sans-serif;*/
-        font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';
+        font-family: 'Raleway', 'Karma', sans-serif;
+        /*font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';*/
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40pt;
@@ -163,7 +163,8 @@ section {
 
 section h2.section-heading {
     /*font-family: 'Bungee Shade' , 'Lato',sans-serif;*/
-    font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';
+    font-family: 'Raleway', 'Karma', sans-serif;
+    /*font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';*/
     font-weight: 400;
     font-size: 24pt;
     color: #80B9D2;

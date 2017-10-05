@@ -56,8 +56,9 @@
 /* Key words in text */
 .color-1 {
     /*color: #80B9D2;*/
-    /* lighter green in official logo */
-    color: #AACFCA;
+    /* darker green in official logo */
+    color: #7AB7AB;
+    /*color: #AACFCA;*/
 }
 
 .color-2 {

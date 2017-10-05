@@ -341,7 +341,8 @@ section#arch1 {
     font-size: 18pt;
     /*color: #f8f8f8;*/
     /*color: #C04A35;*/
-    color: #AACFCA /* light green in official logo */
+    /* darker green in official logo */
+    color: #7AB7AB;
 }
 
 .arch-body {

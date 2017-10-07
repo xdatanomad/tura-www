@@ -464,8 +464,9 @@ section#contact .form-control {
   width: 200px;
   object-fit: cover;
   object-position: top 75%;
-  overflow: hidden;
+  /*overflow: hidden;*/
+  /*position: relative;*/
   margin-left: auto;
   margin-right: auto;
-  /*text-align: center;*/
+  text-align: center;
 }

@@ -452,6 +452,9 @@ section#contact .form-control {
     .tech-stack {
         width: 65%;
     }
+    .post-img {
+      width: 100%;
+    }
 }
 
 .mugshot-wall {
@@ -469,4 +472,8 @@ section#contact .form-control {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.post-img {
+  float: none;
 }

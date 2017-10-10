@@ -1,0 +1,17 @@
+Website Blurb
+
+tura.io is working on creating a multi-layered platform for real-time pattern recognition.
+
+Use of personal and IOT devices has greatly increased the amount of user and sensor data that's floating through the internet.
+Any successful modern data-driven company is building an AI framework that reacts to user behaviors and patterns in real-time.
+At the heart of any such AI framework is a robust and complex pattern recognition software to detect user patterns in a correct and timely fashion.
+Companies who identify and react to user/sensor patterns quicker create a competitive edge in the market place.
+
+tura.io brings use of complex and higher math to the world of pattern recognition.
+We provide a tool to map user/sensor data into real-time streams where our pattern recognition software detects predefined trends within your data.
+
+We realize that trends can be very complex to detect and analyze. This is why we take a robust and multi-layered approach into defining trends.
+Patterns detected by our pattern recognition software can be layered and used in complex order to each other to define actionable trends.
+
+
+We're currently in development of our platform, to keep updated or to be a beta tester please register below...

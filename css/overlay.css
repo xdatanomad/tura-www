@@ -2,11 +2,10 @@
 .navbar-default {
     background-color: #ffffff;
     border-color: transparent;
-    //border-bottom: 1px solid #222222;
+    border-bottom: 1px solid #222222;
 }
 
 .navbar-default .navbar-brand {
-    // color: #fed136;
     font-family: 'Roboto', 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
@@ -14,7 +13,9 @@
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
-    color: #33adff;
+    /*color: #33adff;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
 }
 
 .navbar-default .navbar-brand .icon {
@@ -28,8 +29,11 @@
 }
 
 .navbar-default .navbar-toggle {
-    background-color: #b3e0ff;
-    border-color: #b3e0ff;
+    /*background-color: #b3e0ff;
+    border-color: #b3e0ff;*/
+    /* darker green in official logo */
+    background-color: #7AB7AB;
+    border-color: #7AB7AB;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -38,8 +42,11 @@
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #b3e0ff;
-    border-color: #b3e0ff;
+    /*background-color: #b3e0ff;
+    border-color: #b3e0ff;*/
+    /* darker green in official logo */
+    background-color: #7AB7AB;
+    border-color: #7AB7AB;
 }
 
 
@@ -52,12 +59,14 @@
 }
 
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-    color: #33adff;
+    /*color: #33adff;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
     outline: 0;
 }
 
 header {
-    //background-image: url(../img/tmp/bg1.jpg);
+    /*background-image: url(../img/tmp/bg1.jpg);*/
     /*background-repeat: none;*/
     /*background-attachment: scroll;*/
     /*background-position: center center;*/
@@ -66,14 +75,16 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: left;
-    background-color: #262626;
-    // background-color: #00bfff;
-    color: #222222;
+    /*background-color: #262626;*/
+    /*background-color: #00bfff;*/
+    /*color: #222222;*/
 }
 
 
 header .intro-text {
-    padding-top: 100px;
+    /*padding-top: 100px;
+    padding-bottom: 50px;*/
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -84,7 +95,8 @@ header .intro-text .intro-lead-in {
     font-style: normal;
     line-height: 22px;
     margin-bottom: 25px;
-    color: #f0f0f0;
+    /*color: #f0f0f0;*/
+    color: #000000;
 }
 
 header .intro-text .intro-heading {
@@ -94,34 +106,39 @@ header .intro-text .intro-heading {
     font-size: 30pt;
     line-height: 50px;
     margin-bottom: 25px;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #000000;
 }
 
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 150px
+        /*padding-top: 300px;
+        padding-bottom: 150px*/
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
         font-family: 'Raleway', 'Karma', sans-serif;
-        font-weight: 400;
+        /*font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';*/
+        /*font-weight: 400;
         font-size: 36pt;
-        font-style: normal;
+        font-style: normal;*/
         line-height: 40px;
         margin-bottom: 50px;
-        color: #f0f0f0;
-        color: #80B9D2;
+        /*color: #f0f0f0;
+        color: #80B9D2;*/
     }
 
     header .intro-text .intro-heading {
         font-family: 'Raleway', 'Karma', sans-serif;
+        /*font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';*/
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40pt;
         line-height: 75px;
         margin-bottom: 50px;
-        color: #f8f8f8;
+        /*color: #f8f8f8;*/
     }
 }
 
@@ -139,16 +156,20 @@ header .intro-text .intro-heading {
 }
 
 section {
-    background-color: #262626;
-    color: #f8f8f8;
+    /*background-color: #262626;*/
+    /*color: #f8f8f8;*/
     padding: 45px 10px;
 }
 
 section h2.section-heading {
-    font-family: 'Bungee Shade' , 'Lato',sans-serif;
+    /*font-family: 'Bungee Shade' , 'Lato',sans-serif;*/
+    font-family: 'Raleway', 'Karma', sans-serif;
+    /*font-family: 'Helvetica Neue Bold', 'Helvetica', 'Arial';*/
     font-weight: 400;
     font-size: 24pt;
     color: #80B9D2;
+    /* darker green from official logo */
+    color: #7AB7AB;
     margin-top: 0;
     margin-bottom: 15px;
 }
@@ -184,7 +205,7 @@ section h4.service-heading {
 
 @media (min-width: 768px) {
     section {
-        background-color: #262626;
+        /*background-color: #262626;*/
         color: #f8f8f8;
         padding: 45px 0;
     }
@@ -204,8 +225,10 @@ section h4.service-heading {
 
 .divider-line {
     position: absolute;
-    border-top: 1px solid #80B9D2;
-    padding: 10px 10px;
+    /*border-top: 1px solid #80B9D2;*/
+    /* darker green in official logo */
+    border-top: 1px solid #7AB7AB;
+    /*padding: 10px 10px;*/
     width: 100%;
 }
 
@@ -239,7 +262,8 @@ section#contact .info  {
     font-family: "Open Sans", sans-serif;
     font-size: 14pt;
     font-style: normal;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #000000;
 }
 
 section#contact .form-group {
@@ -310,19 +334,24 @@ section#arch1 {
     /*color: #f8f8f8;*/
 /*}*/
 
+/* Subheadings under the Specialties section */
 .arch-heading {
-    font-family: 'Bungee', 'Raleway', 'Lato';
+    /*font-family: 'Bungee', 'Raleway', 'Lato';*/
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
     font-weight: 500;
     font-size: 18pt;
     /*color: #f8f8f8;*/
-    color: #C04A35;
+    /*color: #C04A35;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
 }
 
 .arch-body {
     font-family: 'Lato';
     font-weight: 300;
     font-size: 12.5pt;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #000000;
 }
 
 .divider-md-inv {
@@ -365,7 +394,8 @@ section#arch1 {
     border: 0px;
     border-style: none;
     border-bottom: 2px solid #f8f8f8;
-    background-color: #262626;
+    /* remove dark gray background for name input in contact form */
+    /*background-color: #262626;*/
     color: #f8f8f8;
 }
 
@@ -379,7 +409,8 @@ section#contact .form-control {
     border: 0px;
     border-style: none;
     border-bottom: 2px solid #f8f8f8;
-    background-color: #262626;
+    /* remove dark gray background for email in contact form */
+    /*background-color: #262626;*/
     color: #f8f8f8;
 }
 
@@ -408,6 +439,7 @@ section#contact .form-control {
 .vertical-middle {
     vertical-align: middle;
 }
+
 .tech-stack {
     display: block;
     position: relative;
@@ -420,4 +452,28 @@ section#contact .form-control {
     .tech-stack {
         width: 65%;
     }
+    .post-img {
+      width: 100%;
+    }
+}
+
+.mugshot-wall {
+  text-align: center;
+}
+
+.mugshot {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: top 75%;
+  /*overflow: hidden;*/
+  /*position: relative;*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.post-img {
+  float: none;
 }

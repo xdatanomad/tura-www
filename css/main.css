@@ -53,12 +53,19 @@
     font-size: small;
 }
 
+/* Key words in text */
 .color-1 {
-    color: #80B9D2;
+    /*color: #80B9D2;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
+    /*color: #AACFCA;*/
 }
 
 .color-2 {
-    color: #49A382;
+    /* Not used as far as I can tell in actual webpage */
+    /*color: #49A382;*/
+    /* darker green in official logo */
+    color: #7AB7AB;
 }
 
 .color-3 {
@@ -75,6 +82,10 @@
 
 .color-6 {
     color: #C04A35;
+}
+
+.color-7 {
+    color: #000000;
 }
 
 .bgcolor-1 {

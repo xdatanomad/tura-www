@@ -1,5 +1,20 @@
 Website Blurb
 
+fingerprint, iris, facial recognition
+self-driving cars
+smart electrical power grids
+sensor-based resource and field monitoring
+livestock tracking and geofencing
+improved traffic flow
+efficient lighting
+wearable biomedical sensors
+glucose detection
+
+
+Fingerprint, iris, and facial recognition in personal devices for stronger security. Smart electrical power grids that automatically reroute in response to equipment failure
+or outages. Self-driving cars that replace manual controls AI assisted by radar, GPS mapping, and sensors. Cities with improved traffic flow and efficient
+street lighting. Live
+
 tura.io is working on creating a multi-layered platform for real-time pattern recognition.
 
 Use of personal and IOT devices has greatly increased the amount of user and sensor data that's floating through the internet.

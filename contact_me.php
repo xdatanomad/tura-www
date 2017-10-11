@@ -1,4 +1,15 @@
 <?php
+
+$my_file = 'contact_me.log';
+$handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$log = "name: $name, email: $email, message: $message";
+fwrite($handle, $data);
+fclose($handle);
+
 // Check for empty fields
 if(empty($_POST['name'])                ||
    empty($_POST['email'])               ||
@@ -8,9 +19,7 @@ if(empty($_POST['name'])                ||
         return false;
    }
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+
 
 // Create the email and send the message
 $to = "info@tura.io";

@@ -2,11 +2,14 @@
 
 $my_file = '/tmp/contact_me.log';
 $handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
+$log = "getting called.\n";
+$fwrite($handle, $log);
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$log = "name: $name, email: $email, message: $message";
+
+$log = "name: $name, email: $email, message: $message\n";
 fwrite($handle, $data);
 fclose($handle);
 

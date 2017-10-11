@@ -278,7 +278,8 @@ section#contact .form-group input.form-control {
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
     height: auto;
-    color: #262626;
+    /*color: #262626;*/
+    color: #000000;
 }
 
 section#contact .form-group textarea.form-control {
@@ -286,7 +287,8 @@ section#contact .form-group textarea.form-control {
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
     height: 130px;
-    color: #262626;
+    /*color: #262626;*/
+    color: #000000;
 }
 
 section#contact .form-control:focus {

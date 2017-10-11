@@ -1,6 +1,6 @@
 <?php
 
-$my_file = 'contact_me.log';
+$my_file = '/tmp/contact_me.log';
 $handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
 
 $name = $_POST['name'];

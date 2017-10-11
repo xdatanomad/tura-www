@@ -13,11 +13,11 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // Create the email and send the message
-$to = "parham@tura.io";
+$to = "info@tura.io";
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nContact: $email\n\nMessage:\n$message";
-$headers = "From: info@tura.io\n";
-$headers .= "Reply-To: info@tura.io";
+$headers = "From: $email\n";
+$headers .= "Reply-To: $email";
 mail($to,$email_subject,$email_body,$headers);
 return true;
 ?>

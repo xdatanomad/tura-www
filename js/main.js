@@ -25,4 +25,4 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('.form-control').keydown(function() { $(this).css("color", "#f8f8f8"); });
+$('.form-control').keydown(function() { $(this).css("color", "black"); });

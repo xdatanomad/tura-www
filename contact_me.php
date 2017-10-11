@@ -2,8 +2,6 @@
 
 $my_file = '/tmp/contact_me.log';
 $handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
-$log = "getting called.\n";
-$fwrite($handle, $log);
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -31,5 +29,6 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: $email\n";
 $headers .= "Reply-To: $email";
 mail($to,$email_subject,$email_body,$headers);
+echo "sent mail.";
 return true;
 ?>
